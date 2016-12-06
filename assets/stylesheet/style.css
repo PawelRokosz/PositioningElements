@@ -1,0 +1,310 @@
+/*
+=======================================================
+CSS Reset
+=======================================================
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+=======================================================
+Clearfix
+=======================================================
+*/
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
+
+body{
+  background: white;
+  color: #000000;
+  font-family: georgia, "times new roman", times, serif;
+}
+
+/*
+  ========================================
+  Container
+  ========================================
+*/
+
+.container{
+  position: relative;
+  width: 100%;
+  padding-top: 47px;
+  height: 9560px;
+}
+
+/*
+  ========================================
+  Header
+  ========================================
+*/
+
+header{
+  position: fixed;
+  border-color: #e2e2e2;
+  min-width: 315px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  height: 48.800px;
+  margin-left: 30px;
+  background: white;
+  box-shadow: -5px 0 2px 0 rgba(0,0,0,0.04);
+}
+
+header .wrapper{
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  min-height: 47px;
+}
+
+/*
+  ========================================
+  logo
+  ========================================
+*/
+
+header .wrapper .logo-box{
+  position: absolute;
+  left: 640px;
+  top: 10px;
+  width: 185px;
+  height: 26px;
+  cursor: pointer;
+}
+
+header .wrapper .logo-box img{
+  width: 185px;
+  height: 26px;
+}
+
+/*
+  ========================================
+  option-box
+  ========================================
+*/
+
+header .wrapper .option-box{
+  position: absolute;
+  left: 1282px;
+  top: 10px;
+  width: 205px;
+  height: 30px;
+  cursor: pointer;
+}
+
+header .wrapper .option-box .first{
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  color: white;
+  background: #6288a5;
+  border: 1px solid #4d7b9f;
+  border-radius: 5px;
+  padding: 9px 7px;
+  text-decoration: none;
+}
+
+header .wrapper .option-box .second{
+  position: absolute;
+  left: 113px;
+  top: 0;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  color: white;
+  background: #6288a5;
+  border: 1px solid #4d7b9f;
+  border-radius: 5px;
+  padding: 9px 7px;
+  text-decoration: none;
+}
+
+header .wrapper .option-box img{
+  position: absolute;
+  left: 178px;
+  top: 7px;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+/*
+  ========================================
+  quick navigation
+  ========================================
+*/
+
+header .wrapper .quick-navigation{
+  position: relative;
+  left: -15px;
+  padding-top: 8px;
+  z-index: 2;
+  width: 281px;
+  height: 30px;
+}
+
+header .quick-navigation .first{
+  width: 82px;
+  height: 14px;
+  padding: 7px 9px;
+  box-shadow: 0 3px 2px 0 rgba(0,0,0,0.06),inset -1px -1px 1px 0 rgba(0,0,0,0.02);
+  border: 1px solid #e2e2e2;
+  border-radius: 2px;
+  margin-right: 6px;
+  display: inline-block;
+  background: white;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  position: relative;
+}
+
+header .quick-navigation .first:hover{
+background: #f7f7f5;
+cursor: pointer;
+}
+
+header .quick-navigation .first p{
+  position: absolute;
+  top: 9px;
+  left: 35px;
+}
+
+header .quick-navigation .first img{
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 5.5px;
+  left: 10px;
+}
+
+header .quick-navigation .second{
+  display: inline-block;
+  width: 60px;
+  height: 16px;
+  padding: 7px 9px;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  position: relative;
+}
+
+header .quick-navigation .second:hover{
+background: #f7f7f5;
+cursor: pointer;
+border-radius: 2px;
+}
+
+header .quick-navigation .second p{
+  position: absolute;
+  top: 9px;
+  left: 35px;
+}
+
+header .quick-navigation .second img{
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 5.5px;
+  left: 10px;
+}
+
+header .quick-navigation .third{
+  display: inline-block;
+  width: 69px;
+  height: 16px;
+  padding: 7px 9px;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  position: relative;
+}
+
+header .quick-navigation .third:hover{
+background: #f7f7f5;
+cursor: pointer;
+border-radius: 2px;
+}
+
+header .quick-navigation .third p{
+  position: absolute;
+  top: 9px;
+  left: 35px;
+}
+
+header .quick-navigation .third img{
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 5.5px;
+  left: 10px;
+}
