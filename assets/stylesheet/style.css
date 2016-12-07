@@ -88,7 +88,7 @@ body{
 .container{
   position: relative;
   width: 100%;
-  padding-top: 47px;
+  padding-top: 42px;
   height: 9560px;
 }
 
@@ -106,7 +106,7 @@ header{
   left: 0;
   width: 100%;
   z-index: 1;
-  height: 48.800px;
+  height: 47.800px;
   margin-left: 30px;
   background: white;
   box-shadow: -5px 0 2px 0 rgba(0,0,0,0.04);
@@ -213,7 +213,7 @@ header .quick-navigation .first{
   width: 82px;
   height: 14px;
   padding: 7px 9px;
-  box-shadow: 0 3px 2px 0 rgba(0,0,0,0.06),inset -1px -1px 1px 0 rgba(0,0,0,0.02);
+  box-shadow: 0 3px 2px 0 rgba(0,0,0,0.06),inset -1px -1px 1px 0 rgba(0,0,0,0.06);
   border: 1px solid #e2e2e2;
   border-radius: 2px;
   margin-right: 6px;
@@ -307,4 +307,179 @@ header .quick-navigation .third img{
   position: absolute;
   top: 5.5px;
   left: 10px;
+}
+
+/*
+  ========================================
+  articles-examples
+  ========================================
+*/
+
+.articles-examples{
+  height: 68px;
+  margin-top: 1px;
+  margin-left: 30px;
+  padding: 13px 8px 8px 9px;
+  border-bottom: 1px solid #e2e2e2;
+  box-shadow: -5px 5px 2px 0 rgba(0,0,0,0.04), inset -1px -1px 1px 0 rgba(0,0,0,0.04);
+  overflow: hidden;
+}
+
+.articles-examples .articles-box{
+  height: 65px;
+  width: 235px;
+  border-right: 1px solid #e2e2e2;
+  display: inline-block;
+}
+
+.articles-examples .space{
+  margin-left: 4px;
+}
+
+.articles-examples .last{
+  border: none;
+}
+
+.articles-examples img{
+  width: 65px;
+  height: 65px;
+  display: inline-block;
+  float: left;
+}
+
+.articles-examples .inline-title{
+  display: inline-block;
+  float: left;
+  padding-left: 10px;
+  padding-top: 2px;
+}
+
+.articles-examples .inline-title .first{
+  font-size: 9px;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+.articles-examples .inline-title .second{
+  font-size: 13px;
+  font-weight: lighter;
+  line-height: 17px;
+}
+
+/*
+  ========================================
+  main-article
+  ========================================
+*/
+
+.main-article-wrapper{
+  margin-left: 30px;
+  box-shadow: -5px 5px 2px 0 rgba(0,0,0,0.04), inset -1px -1px 1px 0 rgba(0,0,0,0.04);
+  padding-top
+}
+
+.main-article{
+  margin: 0 167px;
+  padding-top: 17px;
+}
+
+.main-article p{
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "nyt-franklin",arial,helvetica,sans-serif;
+}
+
+.main-article h1{
+  width: 1125px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e2e2e2;
+  font-size: 32px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.main-article .article-top-nav{
+  padding-top: 15px;
+}
+
+.main-article .article-top-nav p{
+  font-size: 10px;
+  font-weight: lighter;
+  display: inline-block;
+  margin-right: 685px;
+  vertical-align: middle;
+  margin-bottom: 10px;
+}
+
+.main-article .article-top-nav span{
+  font-weight: bold;
+}
+
+.main-article .article-top-nav span:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.main-article .article-top-nav img{
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  cursor: pointer;
+  padding-left: 10px;
+}
+
+.main-article .article-top-nav img.nav-first{
+  padding-right: 15px;
+  border-right: 1px solid #e2e2e2;
+}
+
+.main-article .article-main-img{
+  width: 1125px;
+  padding-top: 15px;
+}
+
+.main-article .img-description{
+  padding-top: 5px;
+  width: 615px;
+  font-family: "nyt-cheltenham-sh",georgia,"times new roman",times,serif;
+  font-weight: normal;
+  text-transform: none;
+  font-size: 14px;
+  line-height: 16px;
+  color: #666;
+}
+
+.main-article .img-description span{
+  font-size: 10px;
+}
+
+.main-article-wrapper .main-article-text-wrapper{
+  width: 1125px;
+  padding-top: 40px;
+  padding-left: 70px;
+}
+
+.main-article-wrapper .main-article-text-wrapper .left{
+  display: inline-block;
+  width: 570px;
+}
+
+.main-article-wrapper .main-article-text-wrapper .left p{
+  font-size: 17px;
+  text-transform: none;
+  font-weight: normal;
+  font-family: georgia,"times new roman",times,serif;
+  line-height: 25px;
+  padding-top: 20px;
+}
+
+.main-article-wrapper .main-article-text-wrapper .left p.bold{
+  font-weight: bold;
+}
+
+.main-article-wrapper .main-article-text-wrapper .left p.last-para{
+  padding-bottom: 40px;
+  border-bottom: 1px solid #e2e2e2;
 }
