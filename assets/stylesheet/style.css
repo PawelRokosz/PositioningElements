@@ -461,6 +461,10 @@ header .quick-navigation .third img{
   padding-left: 70px;
 }
 
+.main-article-wrapper .main-article-text-wrapper .relative-relative{
+  position: relative;
+}
+
 .main-article-wrapper .main-article-text-wrapper .left{
   display: inline-block;
   width: 570px;
@@ -468,7 +472,77 @@ header .quick-navigation .third img{
 
 .main-article-wrapper .main-article-text-wrapper .right{
   display: inline-block;
+  width: 360px;
+  position: absolute;
+  right: 200px;
+  top: 1000px;
 }
+
+.main-article-wrapper .main-article-text-wrapper .right aside{
+  margin-top: 75px;
+  margin-bottom: 45px;
+}
+
+.main-article-wrapper .main-article-text-wrapper .right aside .comments-box-aside{
+  padding-top: 10px;
+}
+
+.main-article-wrapper .main-article-text-wrapper .right aside .paragraph-padding-top{
+  padding-top: 5px;
+}
+
+.main-article-wrapper .main-article-text-wrapper .right aside .last{
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.main-article-wrapper .main-article-text-wrapper .right aside p a{
+  font-size: 10px;
+  font-weight: 500;
+  font-style: normal;
+  font-family: "nyt-franklin",arial,helvetica,sans-serif;
+  display: inline-block;
+  margin-right: 12px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #326891;
+  text-decoration: none;
+  padding-top: 5px;
+}
+
+.main-article-wrapper .main-article-text-wrapper .right aside p a:hover{
+  text-decoration: underline;
+}
+
+.main-article-wrapper .main-article-text-wrapper .right aside h2{
+  font-weight: 700;
+  font-style: normal;
+  font-family: "nyt-franklin",arial,helvetica,sans-serif;
+  color: #326891;
+  display: block;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.main-article-wrapper .main-article-text-wrapper .right aside .light{
+  font-weight: 300;
+  font-style: normal;
+  font-family: "nyt-franklin",arial,helvetica,sans-serif;
+  margin-left: 5px;
+  color: #999;
+  text-transform: none;
+}
+
+.main-article-wrapper .main-article-text-wrapper .right aside .paragraph-some{
+  line-height: 1rem;
+  font-weight: 300;
+  font-style: normal;
+  font-family: "nyt-franklin",arial,helvetica,sans-serif;
+  margin-bottom: 0;
+  color: #666;
+  text-transform: none;
+}
+
 
 .main-article-wrapper .main-article-text-wrapper .left p{
   font-size: 17px;
